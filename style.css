@@ -1,0 +1,26 @@
+main {
+  text-align: center;
+}
+
+#navigation {
+  display: inline-block;
+  border: 1px solid red;
+  vertical-align: top;
+}
+
+#navigation kbd{
+  position: relative;
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 0.8em;
+  vertical-align: top;
+}
+
+#navigation kbd button {
+  position: absolute;
+  left: .3em;
+  bottom: .2em;
+}
